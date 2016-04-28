@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="ui-components" content="Компоненты UI">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/screen.css" rel="stylesheet">
+    <script src="/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <header class="cd-main-header"><a href="#0" class="cd-logo"><img src="img/cd-logo.svg" alt="Logo"></a>
+      <div class="cd-search is-hidden">
+        <form action="#0">
+          <input type="search" placeholder="Поиск...">
+        </form>
+      </div><a href="#0" class="cd-nav-trigger">Меню<span></span></a>
+      <nav class="cd-nav">
+        <ul class="cd-top-nav">
+          <li><a href="#0">Темы</a></li>
+          <li><a href="#0">Справка</a></li>
+          <li>
+            <button class="btn btn__fill-green btn_size_l"><span class="btn__content"><span class="btn__text">Зарегистрироваться</span></span></button>
+          </li>
+          <li>
+            <button class="btn btn__border-green btn_size_l"><span class="btn__content"><span class="btn__text">Войти</span></span></button>
+          </li>
+          <li class="has-children account is-hidden"><a href="#0">Иван Иванов</a>
+            <ul>
+              <li><a href="#0">Выйти</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="cd-main-content">
+      <nav class="cd-side-nav">
+        <ul>
+          <li class="cd-label">Артем Кардава</li>
+          <li class="has-children active"><a href="#0">Статистика</a>
+            <ul>
+              <li><a href="#0">Командные баллы</a></li>
+              <li><a href="#0">Спикерские баллы</a></li>
+              <li><a href="#0">Ссылки на страницы со статистикой</a></li>
+            </ul>
+          </li>
+          <li class="has-children notifications"><a href="#0">Заявки<span class="count">12</span></a>
+            <ul>
+              <li><a href="#0">ОК МГЮА</a></li>
+              <li><a href="#0">Открытый кубок ДВФУ</a></li>
+              <li><a href="#0">Городской открытый ту...</a></li>
+            </ul>
+          </li>
+          <li class="has-children"><a href="#0">Мои команды</a>
+            <ul>
+              <li><a href="#0">Мир в огне</a></li>
+              <li><a href="#0">Поясняй и разъясняй</a></li>
+              <li><a href="#0">Буран аргументов</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="cd-label">Городской турнир по дебатам "Весенний кубок"</li>
+          <li class="has-children"><a href="#0">Команды</a>
+            <ul>
+              <li><a href="#0">Tour</a></li>
+              <li><a href="#0">Tour</a></li>
+              <li><a href="#0">Tour</a></li>
+            </ul>
+          </li>
+          <li class="has-children"><a href="#0">Судьи</a>
+            <ul>
+              <li><a href="#0">Tour</a></li>
+              <li><a href="#0">Tour</a></li>
+              <li><a href="#0">Tour</a></li>
+            </ul>
+          </li>
+          <li class="has-children"><a href="#0">Аудитории</a>
+            <ul>
+              <li><a href="#0">Tour</a></li>
+              <li><a href="#0">Tour</a></li>
+              <li><a href="#0">Tour</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="cd-label">Асtions</li>
+          <li class="action-btn"><a href="#0">Создать турнир</a></li>
+        </ul>
+      </nav>
+      <div class="content-wrapper">
+        <section class="ui-component">
+          <h1>Тексты</h1>
+          <div class="ui-content">
+            <h1>Заголовок</h1>
+            <h2>Подзаголовок</h2>
+            <h3>Подподзаголовок</h3>
+            <p>Lorem ipsum dolor sit amet, consectet 12122121 русский текст русский текст русский текст русский текст ur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Жирный</p>
+            <p>Курсив</p><a>Ссылка</a>
+            <ul>
+              <li>Маркированный 1</li>
+              <li>Маркированный 2</li>
+              <li>Маркированный 3</li>
+              <li>Маркированный 4</li>
+              <li>Маркированный 5</li>
+            </ul>
+            <ul>
+              <li>Нумерованный 1</li>
+              <li>Нумерованный 2</li>
+              <li>Нумерованный 3</li>
+              <li>Нумерованный 4</li>
+              <li>Нумерованный 5</li>
+            </ul>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Кнопки</h1>
+          <div class="ui-content"><a href="/" class="btn__link">
+              <button class="btn btn__border-green btn_size_l"><span class="btn__content"><i class="fa fa-times btn__icon"></i><span class="btn__text">Нажми меня, паря!</span></span></button></a>
+            <button class="btn btn__border-green btn_size_m btn_disabled"><span class="btn__content"><i class="fa fa-times btn__icon"></i><span class="btn__text">Я офигенная кнопка</span></span></button>
+            <button class="btn btn__fill-purple btn_size_s"><span class="btn__content"><i class="fa fa-times btn__icon"></i><span class="btn__text">Я офигенная кнопка</span></span></button>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Табы</h1>
+          <div class="ui-content">
+            <div class="button-group">
+              <label class="button-group__btn button-group__btn_first">
+                <input type="radio" name="button-group" value="item" checked><span class="button-group-item">Первая кнопка</span>
+              </label>
+              <label class="button-group__btn">
+                <input type="radio" name="button-group" value="other-item"><span class="button-group-item">Кнопка</span>
+              </label>
+              <label class="button-group__btn">
+                <input type="radio" name="button-group" value="other-item"><span class="button-group-item">Кнопка</span>
+              </label>
+              <label class="button-group__btn button-group__btn_last">
+                <input type="radio" name="button-group" value="other-item"><span class="button-group-item">Последняя кнопка</span>
+              </label>
+            </div>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Ссылка</h1>
+          <div class="ui-content"><a class="link">Нажми на меня, чувак!</a></div>
+        </section>
+        <section class="ui-component">
+          <h1>Баннер сверху</h1>
+          <div class="ui-content">
+            <p>как и написано, находится сверху</p>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Формы</h1>
+          <div class="ui-content"><span class="input_inline form-item">
+              <h3 class="form-item__head">Название команды</h3>
+              <p class="form-item__about">Выбирайте название ответственно, ведь хорошее название - это залог победы. Вселяйте страх в соперников, наводите ужас на судей.</p>
+              <input type="text" placeholder="Введи в меня что-нибудь" class="input__control_text input_size_m"><span class="form-item__message form-item__message_error">Число команд должно быть кратно 4.</span></span><span class="input_inline">
+              <input type="text" placeholder="Введи в меня что-нибудь" class="input__control_text input_size_s"><span class="form-item__message form-item__message_success">Все отлично</span></span><span class="input_block">
+              <input type="text" placeholder="Введи в меня что-нибудь" class="input__control_text input_size_l"></span><span class="input_inline">
+              <input type="date" class="input__control_text input_size_m"></span><span class="input_inline">
+              <input type="time" class="input__control_text input_size_m"></span><span class="input_inline">
+              <input type="number" min="0" max="128" step="4" class="input__control_text input_size_m"></span><span class="input_inline">
+              <input type="range" min="0" max="128" step="4" class="input__control_range input_size_m"></span><span class="input_block">
+              <div class="dropdown">
+                <div class="dropdown__container">
+                  <p class="dropdown__button">Выберите статус</p><i class="fa fa-chevron-down dropdown__icon"></i>
+                  <ul class="dropdown__menu dropdown-select">
+                    <li>Подал заявку</li>
+                    <li>Участник</li>
+                    <li>В вейт-листе</li>
+                  </ul>
+                </div>
+              </div></span><span class="input_block">
+              <div class="dropdown dropdown_disabled">
+                <div class="dropdown__container">
+                  <p class="dropdown__button">Выберите статус</p><i class="fa fa-chevron-down dropdown__icon"></i>
+                  <ul class="dropdown__menu dropdown-select">
+                    <li>Подал заявку</li>
+                    <li>Участник</li>
+                    <li>В вейт-листе</li>
+                  </ul>
+                </div>
+              </div></span><span class="input_block">
+              <h3 class="form-item__head">Закрытый раунд</h3>
+              <p class="form-item__about">Участники не смогут узнать командные и спикерские баллы до окончения турнира</p>
+              <label class="label-switch">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+              </label></span></div>
+        </section>
+        <section class="ui-component">
+          <h1>Уведомление</h1>
+          <p>Находится в нижнем правом углу.</p>
+          <div class="ui-content">
+            <div class="notification">
+              <div class="notification__window"><i class="fa fa-question-circle fa-2x notification__img"></i>
+                <div class="notification__message">
+                  <p class="notification__text">Судья Иван Иванов внес результаты раунда (аудитория 404)</p>
+                </div><i class="fa fa-times notification__close"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Дисклеймеры</h1>
+          <div class="ui-content">
+            <div class="disclaimer">
+              <div class="disclaimer__window disclaimer_info">
+                <div class="disclaimer__message">
+                  <p class="disclaimer__text">Обратите внимание, что вы создаете закрытый раунд, а это значит, что результаты игры не будут видны в таблице до окончения турнира.</p>
+                </div><i class="fa fa-times disclaimer__close"></i>
+              </div>
+            </div>
+            <div class="disclaimer">
+              <div class="disclaimer__window disclaimer_danger">
+                <div class="disclaimer__message">
+                  <p class="disclaimer__text">Вы указали только 6 аудиторий, а нужно 7. Введите больше аудиторий.</p>
+                </div><i class="fa fa-times disclaimer__close"></i>
+              </div>
+            </div>
+            <div class="disclaimer">
+              <div class="disclaimer__window disclaimer_success">
+                <div class="disclaimer__message">
+                  <p class="disclaimer__text">Все отлично, можно переходить к созданию нового раунда.</p>
+                </div><i class="fa fa-times disclaimer__close"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Таблицы</h1>
+          <div class="ui-content">
+            <table class="table-minimal">
+              <thead>
+                <tr>
+                  <th>Команда</th>
+                  <th>Сумма баллов</th>
+                  <th>Сумма спикерских</th>
+                  <th>#1</th>
+                  <th>#2</th>
+                  <th>#3</th>
+                  <th>#4</th>
+                  <th>#5</th>
+                  <th>#6</th>
+                  <th>#7</th>
+                  <th>Кнопка</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Название команды</td>
+                  <td>16</td>
+                  <td>445</td>
+                  <td>78</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>
+                    <button class="btn btn__border-green btn_size_s">Подтвердить</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Название команды</td>
+                  <td>16</td>
+                  <td>445</td>
+                  <td>78</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>
+                    <button class="btn btn__border-green btn_size_s">Подтвердить</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Название команды</td>
+                  <td>16</td>
+                  <td>445</td>
+                  <td>78</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>
+                    <button class="btn btn__border-green btn_size_s">Подтвердить</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Название команды</td>
+                  <td>16</td>
+                  <td>445</td>
+                  <td>78</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>72</td>
+                  <td>78</td>
+                  <td>66</td>
+                  <td>
+                    <button class="btn btn__border-green btn_size_s">Подтвердить</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Статистика</h1>
+          <p>Блок со статистикой</p>
+          <div class="ui-content">
+                        <div class="stats">
+                          <ul>
+                            <li>98<span>Подали заявки</span></li>
+                            <li>182<span>Одобрены</span></li>
+                            <li>16<span>В вейт-листе</span></li>
+                            <li>5<span>Отклонены</span></li>
+                          </ul>
+                        </div>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Турниры</h1>
+          <div class="ui-content">
+            <section><a herf="/" class="tournament">
+                <div class="tournament__info">
+                  <h1 class="tournament__name">Городской турнир по парламентским дебатам "Весенний кубок 2016"</h1>
+                  <div class="tournament__data">
+                    <div class="tournament__dataitem"><i class="fa fa-compass"></i><span>Владивосток, ДВФУ</span></div>
+                    <div class="tournament__dataitem"><i class="fa fa-calendar"></i><span>24.02.2015 - 26.02.2015</span></div>
+                    <div class="tournament__dataitem"><span>Регистрация открыта до 20 марта 2015</span></div>
+                  </div>
+                  <div class="tournament__actions">
+                    <button class="btn btn__fill-green btn_size_s"><span class="btn__content"><span class="btn__text">Участвовать</span></span></button>
+                  </div>
+                </div></a></section>
+            <section><a herf="/" class="tournament">
+                <div class="tournament__info">
+                  <h1 class="tournament__name">Городской турнир по парламентским дебатам "Весенний кубок 2016"</h1>
+                  <div class="tournament__data">
+                    <div class="tournament__dataitem"><i class="fa fa-compass"></i><span>Владивосток, ДВФУ</span></div>
+                    <div class="tournament__dataitem"><i class="fa fa-calendar"></i><span>24.02.2015 - 26.02.2015</span></div>
+                    <div class="tournament__dataitem"><span>Идет 2 раунд</span></div>
+                  </div>
+                  <div class="tournament__actions">
+                    <button class="btn btn__border-purple btn_size_s"><span class="btn__content"><span class="btn__text">Командный тэб</span></span></button>
+                    <button class="btn btn__border-purple btn_size_s"><span class="btn__content"><span class="btn__text">Спикерский тэб</span></span></button>
+                  </div>
+                </div></a></section>
+            <section><a herf="/" class="tournament">
+                <div class="tournament__info">
+                  <h1 class="tournament__name">Городской турнир по парламентским дебатам "Весенний кубок 2016"</h1>
+                  <div class="tournament__data">
+                    <div class="tournament__dataitem"><i class="fa fa-compass"></i><span>Владивосток, ДВФУ</span></div>
+                    <div class="tournament__dataitem"><i class="fa fa-calendar"></i><span>24.02.2015 - 26.02.2015</span></div>
+                    <div class="tournament__dataitem"><span></span></div>
+                  </div>
+                  <div class="tournament__actions">
+                    <button class="btn btn__border-purple btn_size_s"><span class="btn__content"><span class="btn__text">Командный тэб</span></span></button>
+                    <button class="btn btn__border-purple btn_size_s"><span class="btn__content"><span class="btn__text">Спикерский тэб</span></span></button>
+                  </div>
+                </div></a></section>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Команды</h1>
+          <div class="ui-content">
+            <section class="team">
+              <div class="team__tournament"><a href="/" class="link">Городской турнир по парламентским дебатам "Весенний кубок 2016"</a></div>
+              <div class="team__name">
+                <h1>Мир в огне</h1><span class="team__status team__status_refuse">Заявка не рассмотрена</span>
+              </div>
+              <div class="team__speakers">
+                <div class="team__sp"><i class="fa fa-user"></i><a href="/" class="link">Иван Иванович Иванов</a></div>
+                <div class="team__sp"><i class="fa fa-user"></i><a href="/" class="link">Петр Петрович Петров</a></div>
+              </div>
+              <div class="team__actions">
+                <button class="btn btn__border-purple btn_size_s input_inline"><span class="btn__content"><span class="btn__text">Снять заявку</span></span></button><span class="input_inline">
+                  <div class="dropdown dropdown_size_s">
+                    <div class="dropdown__container">
+                      <p class="dropdown__button">Выберите статус</p><i class="fa fa-chevron-down dropdown__icon"></i>
+                      <ul class="dropdown__menu dropdown-select">
+                        <li>Подал заявку</li>
+                        <li>Участник</li>
+                        <li>В вейт-листе</li>
+                      </ul>
+                    </div>
+                  </div></span>
+              </div>
+            </section>
+            <section class="team">
+              <div class="team__tournament"><a href="/" class="link">Городской турнир по парламентским дебатам "Весенний кубок 2016"</a></div>
+              <div class="team__name">
+                <h1>Мир в огне</h1><span class="team__status team__status_wait">В вейт-листе</span>
+              </div>
+              <div class="team__speakers">
+                <div class="team__sp"><i class="fa fa-user"></i><a href="/" class="link">Иван Иванович Иванов</a></div>
+                <div class="team__sp"><i class="fa fa-user"></i><a href="/" class="link">Петр Петрович Петров</a></div>
+              </div>
+              <div class="team__actions">
+                <button class="btn btn__border-purple btn_size_s input_inline"><span class="btn__content"><span class="btn__text">Снять заявку</span></span></button><span class="input_inline">
+                  <div class="dropdown dropdown_size_s">
+                    <div class="dropdown__container">
+                      <p class="dropdown__button">Выберите статус</p><i class="fa fa-chevron-down dropdown__icon"></i>
+                      <ul class="dropdown__menu dropdown-select">
+                        <li>Подал заявку</li>
+                        <li>Участник</li>
+                        <li>В вейт-листе</li>
+                      </ul>
+                    </div>
+                  </div></span>
+              </div>
+            </section>
+            <section class="team">
+              <div class="team__tournament"><a href="/" class="link">Городской турнир по парламентским дебатам "Весенний кубок 2016"</a></div>
+              <div class="team__name">
+                <h1>Мир в огне</h1><span class="team__status team__status_success">Заявка принята</span>
+              </div>
+              <div class="team__speakers">
+                <div class="team__sp"><i class="fa fa-user"></i><a href="/" class="link">Иван Иванович Иванов</a></div>
+                <div class="team__sp"><i class="fa fa-user"></i><a href="/" class="link">Петр Петрович Петров</a></div>
+              </div>
+              <div class="team__actions">
+                <button class="btn btn__border-purple btn_size_s input_inline"><span class="btn__content"><span class="btn__text">Снять заявку</span></span></button><span class="input_inline">
+                  <div class="dropdown dropdown_size_s">
+                    <div class="dropdown__container">
+                      <p class="dropdown__button">Выберите статус</p><i class="fa fa-chevron-down dropdown__icon"></i>
+                      <ul class="dropdown__menu dropdown-select">
+                        <li>Подал заявку</li>
+                        <li>Участник</li>
+                        <li>В вейт-листе</li>
+                      </ul>
+                    </div>
+                  </div></span>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Темы</h1>
+          <div class="ui-content">
+                        <section class="motion">
+                          <div class="motion__tournament"><span>Городской турнир по парламентским дебатам "Весенний кубок 2016"</span><span> (Раунд 2)</span></div>
+                          <div class="motion__name">
+                            <h1>ЭПСЧ поддерживает политику импортозамещения</h1>
+                            <div class="motion__likes"><a class="motion__likesitem like"><i class="fa fa-thumbs-o-up"></i><span>23</span></a><a class="motion__likesitem like"><i class="fa fa-thumbs-o-down"></i><span>4</span></a></div>
+                          </div>
+                          <p class="motion__infoslide"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus illum at voluptates, culpa iusto. Non totam dolores, odit iusto laboriosam minima omnis id! Sint voluptatibus accusantium commodi minima ex minus!</span></p>
+                          <div class="motion__tags"><a class="tag">Политика</a><a class="tag">Экономика</a><a class="tag">Правосудие</a><a class="tag">Феминизм</a></div>
+                        </section>
+                        <section class="motion">
+                          <div class="motion__tournament"><span>Городской турнир по парламентским дебатам "Весенний кубок 2016"</span><span> (Раунд 2)</span></div>
+                          <div class="motion__name">
+                            <h1>ЭПСЧ поддерживает политику импортозамещения</h1>
+                            <div class="motion__likes"><a class="motion__likesitem like"><i class="fa fa-thumbs-o-up"></i><span>23</span></a><a class="motion__likesitem like"><i class="fa fa-thumbs-o-down"></i><span>4</span></a></div>
+                          </div>
+                          <p class="motion__infoslide"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus illum at voluptates, culpa iusto. Non totam dolores, odit iusto laboriosam minima omnis id! Sint voluptatibus accusantium commodi minima ex minus!</span></p>
+                          <div class="motion__tags"><a class="tag">Политика</a><a class="tag">Экономика</a><a class="tag">Правосудие</a><a class="tag">Феминизм</a></div>
+                        </section>
+                        <section class="motion">
+                          <div class="motion__tournament"><span>Городской турнир по парламентским дебатам "Весенний кубок 2016"</span><span> (Раунд 2)</span></div>
+                          <div class="motion__name">
+                            <h1>ЭПСЧ поддерживает политику импортозамещения</h1>
+                            <div class="motion__likes"><a class="motion__likesitem like"><i class="fa fa-thumbs-o-up"></i><span>23</span></a><a class="motion__likesitem like"><i class="fa fa-thumbs-o-down"></i><span>4</span></a></div>
+                          </div>
+                          <p class="motion__infoslide"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus illum at voluptates, culpa iusto. Non totam dolores, odit iusto laboriosam minima omnis id! Sint voluptatibus accusantium commodi minima ex minus!</span></p>
+                          <div class="motion__tags"><a class="tag">Политика</a><a class="tag">Экономика</a><a class="tag">Правосудие</a><a class="tag">Феминизм</a></div>
+                        </section>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Участники и судьи</h1>
+          <div class="ui-content">
+                        <section class="person">
+                          <div class="person__tournament"><span>Городской турнир по парламентским дебатам "Весенний кубок 2016"</span></div>
+                          <div class="person__name">
+                            <h1>Иван Иванов</h1>
+                          </div>
+                          <div class="person__data">
+                            <div class="person__dataitem"><i class="fa fa-compass"></i><span>Владивосток</span></div>
+                            <div class="person__dataitem"><i class="fa fa-compass"></i><span>ПУДУП им А.В.Арканова</span></div>
+                          </div>
+                          <div class="person__stats stats">
+                            <ul>
+                              <li>83,7<span>Средний балл</span></li>
+                              <li>26%<span>Побед</span></li>
+                              <li>45<span>Раундов судил</span></li>
+                              <li>14<span>Турниров выиграл</span></li>
+                            </ul>
+                          </div>
+                        </section>
+                        <section class="person">
+                          <div class="person__tournament"><span>Городской турнир по парламентским дебатам "Весенний кубок 2016"</span></div>
+                          <div class="person__name">
+                            <h1>Иван Иванов</h1>
+                          </div>
+                          <div class="person__data">
+                            <div class="person__dataitem"><i class="fa fa-compass"></i><span>Владивосток</span></div>
+                            <div class="person__dataitem"><i class="fa fa-compass"></i><span>ПУДУП им А.В.Арканова</span></div>
+                          </div>
+                          <div class="person__stats stats">
+                            <ul>
+                              <li>83,7<span>Средний балл</span></li>
+                              <li>26%<span>Побед</span></li>
+                              <li>45<span>Раундов судил</span></li>
+                              <li>14<span>Турниров выиграл</span></li>
+                            </ul>
+                          </div>
+                        </section>
+                        <section class="person">
+                          <div class="person__tournament"><span>Городской турнир по парламентским дебатам "Весенний кубок 2016"</span></div>
+                          <div class="person__name">
+                            <h1>Иван Иванов</h1>
+                          </div>
+                          <div class="person__data">
+                            <div class="person__dataitem"><i class="fa fa-compass"></i><span>Владивосток</span></div>
+                            <div class="person__dataitem"><i class="fa fa-compass"></i><span>ПУДУП им А.В.Арканова</span></div>
+                          </div>
+                          <div class="person__stats stats">
+                            <ul>
+                              <li>83,7<span>Средний балл</span></li>
+                              <li>26%<span>Побед</span></li>
+                              <li>45<span>Раундов судил</span></li>
+                              <li>14<span>Турниров выиграл</span></li>
+                            </ul>
+                          </div>
+                        </section>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Всплывающая подсказка</h1>
+          <button data-balloon="psum dolor sit amet, consectetur adipisicing elit. Porro animi error dolorum fugit facilis maiores, suscipit, iure distinctio, quis nobis!" data-balloon-length="xlarge" data-balloon-pos="right" class="btn btn__fill-purple btn_size_l"><span class="btn__content"><i class="fa fa-times btn__icon"></i><span class="btn__text">Я офигенная кнопка</span></span></button>
+        </section>
+        <section class="ui-component">
+          <h1>Пагинация</h1>
+          <div class="ui-content">
+            <div class="pagination">
+              <ul>
+                <li class="page-prev"><a href="javascript:void(0)">Назад</a></li>
+                <li>
+                  <ul>
+                    <li><a href="javascript:void(0)">1</a></li>
+                    <li><a href="javascript:void(0)">2</a></li>
+                    <li><a href="javascript:void(0)">3</a></li>
+                    <li><a href="javascript:void(0)">4</a></li>
+                    <li><a href="javascript:void(0)">5</a></li>
+                  </ul>
+                </li>
+                <li class="page-next"><a href="javascript:void(0)">Вперед</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Модальное окно</h1>
+          <div class="ui-content">
+            <div class="modal">
+              <label for="modal-1">
+                <div class="modal-trigger">
+                  <p>Кликай на меня, кореш!</p>
+                </div>
+              </label>
+              <input type="checkbox" id="modal-1" class="modal-state">
+              <div class="modal-fade-screen">
+                <div class="modal-inner">
+                  <div for="modal-1" class="modal-close"><i class="fa fa-times"></i></div>
+                  <div class="modal-content">
+                    <h1>Можешь закрывать окно, чувак!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro animi error dolorum fugit facilis maiores, suscipit, iure distinctio, quis nobis quod. Est nostrum deleniti cumque odio, ratione neque illum beatae.</p>
+                    <button class="btn btn__border-green btn_size_l input_inline"><span class="btn__content"><span class="btn__text">Приятная кнопочка</span></span></button>
+                    <button class="btn btn__border-green btn_size_l input_inline"><span class="btn__content"><span class="btn__text">Другая кнопочка</span></span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ui-component">
+          <h1>Drag n drop</h1>
+          <p>Работает на Sortable.js</p>
+          <div class="ui-content">
+            <div id="drag" class="dnd__container">
+              <div class="dnd__block"><span>1</span></div>
+              <div class="dnd__block"><span>2</span></div>
+              <div class="dnd__block"><span>3</span></div>
+              <div class="dnd__block"><span>4</span></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script src="https://code.jquery.com/jquery-git2.min.js"></script>
+  <script src="js/vendor/jquery.menu-aim.js"></script>
+  <script src="http://cdn.jsdelivr.net/sortable/latest/Sortable.min.js"></script>
+  <script src="/js/index.js"></script>
+</html>
